@@ -4,42 +4,42 @@ import "../styles/Projects.css";
 
 const Projects = () => {
   const Project_Card_Data = [{
-      img: "src/url",
+      img: "src/assets/Newsportal.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....",
+      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link :"Url"
     },{
-      img: "src/url",
+      img: "src/assets/Newsportal.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....",
+      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link :"Url"
     },{
-      img: "src/url",
+      img: "src/assets/Newsportal.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....",
+      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link :"Url"
     },{
-      img: "src/url",
+      img: "src/assets/Newsportal.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....",
+      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link :"Url"
     },
     {
-      img: "src/url",
+      img: "src/assets/Newsportal.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....",
+      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link: "Url"
     },
     {
-      img: "src/url",
+      img: "src/assets/Newsportal.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....",
+      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link :"Url"
     }]
   const [index, setIndex] = useState(0);
@@ -73,12 +73,12 @@ const Projects = () => {
                 return (
                   <div className="Project-Card">
                   <img src={project.img} className="Project-Card-img" />
-                 <div className="d-flex">
-                   <h6 >{project.Title}</h6>
+                 <div className="d-flex Project-Card-title">
+                   <span >{project.Title}</span>
                   <span>{project.Tech_Stack}</span>
                  </div>
                   <p className="Project-Card-desc">{project.Desc}</p>
-                  <button className="Project-Card-Navigate">{project.Link}</button>
+                  <Link to={project.Link} className="Project-Card-Button">View Code</Link>
                 </div>
                 )
             })

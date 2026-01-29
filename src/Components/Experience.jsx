@@ -3,7 +3,6 @@ import Navbar from "./Navbar.jsx"
 const Experience = () => {
   return (
     <div>
-<Navbar/>
       Experience
     </div>
   )

@@ -21,7 +21,7 @@ function App() {
       <Route path="/Projects" element={<Projects/>}/>
       <Route path="/Certificate" element={<Certificate/>}/>
       <Route path="/Contact" element={<Contact/>}/>
-      <Route path="/faltu" element={<ContactForm/>}/>
+      <Route path="*" element={<h2>Sub-Title-Error</h2>}/>
     </Routes>
     </>
   )

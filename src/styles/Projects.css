@@ -1,27 +1,84 @@
 .Project-container {
-  height: 50vh;
-  background: black;
+  width: 100%;
+  background: #000;
+  padding: 60px 40px;
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 20px;
+}
+
+.Project-container button {
+  background: transparent;
+  border: 2px solid rgb(166, 0, 255);
+  color: white;
+  font-size: 22px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s;
 }
 
 .viewport {
-  width: 100%;
   overflow: hidden;
+  width: 100%;
 }
 
 .Inner-Container {
   display: flex;
-  gap: 20px;
-  transition: transform 0.5s ease;
+  gap: 25px;
+  transition: transform 0.5s ease-in-out;
 }
 
 .Project-Card {
-  min-width: 35%;
-  height: 300px;
-  border: 1px solid white;
-  
-  
+  flex: 0 0 32%;
+  background: #0c0c0c;
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 15px rgba(162, 0, 255, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Project-Card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(162, 0, 255, 0.9);
+}
+
+.Project-Card-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.Project-Card-title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.Project-Card-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ccc;
+  margin: 10px 0 14px;
+}
+
+.Project-Card-Button {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 14px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid rgb(166, 0, 255);
+  text-decoration: none;
+  box-shadow: inset 0 0 8px rgba(166, 0, 255, 0.8);
+  transition: 0.3s;
+}
+
+.Project-Card-Button:hover {
+  background: rgb(166, 0, 255);
 }
