@@ -1,7 +1,47 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Projects.css";
 
 const Projects = () => {
+  const Project_Card_Data = [{
+      img: "src/url",
+      Title: "Project Title",
+     Tech_Stack: "MERN",
+      Desc: "Here will be the project desc little.....",
+      Link :"Url"
+    },{
+      img: "src/url",
+      Title: "Project Title",
+     Tech_Stack: "MERN",
+      Desc: "Here will be the project desc little.....",
+      Link :"Url"
+    },{
+      img: "src/url",
+      Title: "Project Title",
+     Tech_Stack: "MERN",
+      Desc: "Here will be the project desc little.....",
+      Link :"Url"
+    },{
+      img: "src/url",
+      Title: "Project Title",
+     Tech_Stack: "MERN",
+      Desc: "Here will be the project desc little.....",
+      Link :"Url"
+    },
+    {
+      img: "src/url",
+      Title: "Project Title",
+     Tech_Stack: "MERN",
+      Desc: "Here will be the project desc little.....",
+      Link: "Url"
+    },
+    {
+      img: "src/url",
+      Title: "Project Title",
+     Tech_Stack: "MERN",
+      Desc: "Here will be the project desc little.....",
+      Link :"Url"
+    }]
   const [index, setIndex] = useState(0);
 
   const totalCards = 6;
@@ -28,8 +68,21 @@ const Projects = () => {
           className="Inner-Container"
           style={{ transform: `translateX(-${index * 35}%)` }}
         >
-          <div className="Project-Card">Card 1</div>
-         
+          {
+            Project_Card_Data.map((project)=>{
+                return (
+                  <div className="Project-Card">
+                  <img src={project.img} className="Project-Card-img" />
+                 <div className="d-flex">
+                   <h6 >{project.Title}</h6>
+                  <span>{project.Tech_Stack}</span>
+                 </div>
+                  <p className="Project-Card-desc">{project.Desc}</p>
+                  <button className="Project-Card-Navigate">{project.Link}</button>
+                </div>
+                )
+            })
+          }
         </div>
       </div>
 
