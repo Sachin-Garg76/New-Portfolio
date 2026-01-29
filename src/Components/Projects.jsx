@@ -29,11 +29,7 @@ const Projects = () => {
           style={{ transform: `translateX(-${index * 35}%)` }}
         >
           <div className="Project-Card">Card 1</div>
-          <div className="Project-Card">Card 2</div>
-          <div className="Project-Card">Card 3</div>
-          <div className="Project-Card">Card 4</div>
-          <div className="Project-Card">Card 5</div>
-          <div className="Project-Card">Card 6</div>
+         
         </div>
       </div>
 
