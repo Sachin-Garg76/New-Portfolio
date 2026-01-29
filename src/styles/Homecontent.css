@@ -12,6 +12,9 @@
   height: 45vh;
   /* border: 1px solid white; */
 }
+.typewriter-greet{
+  height: 5px;
+}
 .Greeting {
   text-align: center;
   padding-top: 30vh;

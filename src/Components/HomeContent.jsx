@@ -16,8 +16,25 @@ const HomeContent = () => {
             <div className="HomeConent-container row">
                 <div className="Inner-Home-Container col-sm-4">
                     <div className="Left-Inner Greeting">
-                        <span className="text-color"> Hello I'm </span> <br />
-                        Sachin
+                            <div className='typewriter typewriter-greet'>
+                                <Typewriter
+                                    options={{
+                                        strings: [
+                                            ` Hello I'm`,
+                                            ` Hello I'm`,
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                        delay: 80,
+                                        deleteSpeed: 100,
+                                    }}
+                                />
+                            </div>
+
+                         <br />
+                        <span className="text-color typewriter-greet">
+                            Sachin
+                        </span>
 
                     </div>
                     <div className="Left-Inner">
@@ -37,7 +54,7 @@ const HomeContent = () => {
                 <div className="Inner-Home-Container col-sm-4">
 
                     <div className="Right-Inner Intro">
-                    <span className="text-color"> Creative <br />  </span>
+                        <span className="text-color"> Creative <br />  </span>
                         <div className='typewriter'>
                             <Typewriter
                                 options={{
