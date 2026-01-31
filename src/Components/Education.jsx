@@ -9,12 +9,22 @@ const Education = () => {
         <Link to="/Education" className='link-tag'>Education</Link>
         <Link to="/Experience" className='link-tag'>Experience</Link>
       </div>
-      <div className="Inner-Education-Container">
-        <div className="Entities">
+      <div className="Inner-Education-Container row w-100 mt-5">
+        <div className="col-sm-6 border text-center ">
+           <h5>Sanskriti University</h5>
+           <h5>Pt.HSRL indian Public school</h5>
+           <h5> Brij Dham Vidya Mandir</h5>
+          
+         
+        </div>
+        <div className="col-sm-6 border text-center">
+          <h5> C.S.E |2022-2026 </h5>
+          <h5>P.C.M | 2021-2022</h5>
+          <h5>2019-2020</h5>
+          
+          
           
         </div>
-        <div className="Entities"></div>
-        <div className="Entities"></div>
       </div>
      </div>
     </>
