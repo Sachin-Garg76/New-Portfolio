@@ -11,7 +11,7 @@ const Navbar = () => {
                 </div>
                 <div className="col-sm-4 link-container">
                     <Link to="/About" className='link-tag' >About</Link>
-                    <Link to="/Education" className='link-tag' >Education</Link>
+                    <Link to="/Certificate" className='link-tag' >Certificate</Link>
                     <Link to="/Contact" className='link-tag' >Contact</Link>
 
                 </div>
