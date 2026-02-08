@@ -4,12 +4,22 @@ const Certificate = () => {
   return (
     <>
       <div className="Certificate-Container">
-        <div className="Certicate-Inner-Container">
-          {/* <img src="src/assets/Newsportal.png" alt="" className='Certificate-img' /> */}
+        <div className="Outer-Certificate">
+          <div className="Certicate-Inner-Container">
+          <img src="src/assets/Newsportal.png" alt="" className='Certificate-img' />
         </div>
-        <div className="Certicate-Inner-Container"></div>
-        <div className="Certicate-Inner-Container"></div>
-        <div className="Certicate-Inner-Container"></div>
+        <div className="Certicate-Inner-Container">
+          <img src="src/assets/Newsportal.png" alt="" className='Certificate-img' />
+        </div>
+        </div>
+        <div className="Outer-Certificate">
+          <div className="Certicate-Inner-Container">
+          <img src="src/assets/Newsportal.png" alt="" className='Certificate-img' />
+        </div>
+        <div className="Certicate-Inner-Container">
+          <img src="src/assets/Newsportal.png" alt="" className='Certificate-img' />
+        </div>
+        </div>
       </div>
     </>
   )
