@@ -1,29 +1,84 @@
-.Main-div-skills{
+.skills-wrapper {
   display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem;
   background: #000;
-  padding: 15px;
+  flex-wrap: wrap;
 }
-.box {
-  height: 150px;
-  width: 50%;
-  border: 1px solid white;
+.Heading-top{
+  text-align: center;
   background: #000;
-  margin: 1rem;
-  transition: 1s;
+  margin: 0px;
+  padding: 0px;
 }
-.box:hover{
-  box-shadow: 8px 9px 10px rgba(162, 0, 255, 0.731), -9px 7px 10px rgba(162, 0, 255, 0.731);
-}
-.active {
-  height: 250px;
-  width: 50%;
-  transition: 1s;
-  background: linear-gradient(black,rgba(162, 0, 255, 0.731));
+/* Card */
+.card {
+  width: 450px;
+  background: #000;
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  border: 1px solid rgba(162, 0, 255, 0.5);
+  transition: 0.4s ease;
 }
 
-.entities{
-  border: 2px solid rgba(162, 0, 255, 0.731);
-  margin: 15px;
-  padding: 5px;
-  display: inline-block;
+.card:hover {
+  box-shadow: 0 10px 25px rgba(162, 0, 255, 0.4);
+  transform: translateY(-5px);
+}
+
+/* Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Button */
+.toggle-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgba(162, 0, 255, 0.8);
+  color: white;
+  transition: 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: rgba(162, 0, 255, 1);
+  transform: scale(1.05);
+}
+
+/* Collapsible Content */
+.content {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.content.show {
+  max-height: 300px;
+  opacity: 1;
+}
+
+/* Tags */
+.tag {
+  padding: 6px 14px;
+  border-radius: 25px;
+  border: 1px solid rgba(162, 0, 255, 0.7);
+  background: rgba(162, 0, 255, 0.1);
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.tag:hover {
+  background: rgba(162, 0, 255, 0.8);
+  color: black;
+  transform: scale(1.05);
 }

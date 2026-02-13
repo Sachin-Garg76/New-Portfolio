@@ -1,47 +1,85 @@
-import React from 'react'
-import '../styles/skills.css'
+import React, { useState } from "react";
+import "../styles/skills.css";
+
 const Skills = () => {
-   function toggleBox()
-    {
-      document.getElementById("box").classList.toggle("active"); 
-    }
-   function toggleBox2()
-    {
-      document.getElementById("box2").classList.toggle("active"); 
-    }
+  const [openSection, setOpenSection] = useState(null);
+
+  const toggleSection = (section) => {
+    setOpenSection(openSection === section ? null : section);
+  };
+
   return (
     <>
-      <div className="Main-div-skills ">
-        <div id="box" className="box mt-5 mb-5">
-          Skills
-          <div className="skills-container">
-            <div className="entities">JavaScript</div>
-            <div className="entities">MongoDb</div>
-            <div className="entities">Express.Js</div>
-            <div className="entities">React.Js</div>
-            <div className="entities">Node.Js</div>
-            <div className="entities">Html5</div>
-            <div className="entities">Css</div>
-            <div className="entities">Bootstrap & Tailwind</div>
+      <h2 className="Heading-top">My <span className="text-color">Skills</span> & <span className="text-color">Tools</span></h2>
+      <div className="skills-wrapper">
+        {/* Skills Card */}
+        <div className="card">
+          <div className="card-header">
+            <h2>Skills</h2>
+            <button
+              className="toggle-btn"
+              onClick={() => toggleSection("skills")}
+            >
+              {openSection === "skills" ? "Hide" : "View Skills"}
+            </button>
           </div>
-        <button onClick={()=>{toggleBox()}}>Click me</button>
-      </div>
-      <div id="box2" className="box mt-5 mb-5">
-        Tools
-          <div className="skills-container">
-            <div className="entities">Vs code</div>
-            <div className="entities">Postman</div>
-            <div className="entities">Image kit</div>
-            <div className="entities">Git</div>
-            <div className="entities">Github</div>
-            <div className="entities">Docker</div>
-          </div>
-        <button onClick={()=>{toggleBox2()}}>Click me</button>
-      </div>
-      </div>
-      
-    </>
-  )
-}
 
-export default Skills
+          <div
+            className={`content ${openSection === "skills" ? "show" : ""
+              }`}
+          >
+            {[
+              "JavaScript",
+              "MongoDB",
+              "Express.js",
+              "React.js",
+              "Node.js",
+              "HTML5",
+              "CSS3",
+              "Bootstrap",
+              "Tailwind",
+            ].map((skill, index) => (
+              <span key={index} className="tag">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Tools Card */}
+        <div className="card">
+          <div className="card-header">
+            <h2>Tools</h2>
+            <button
+              className="toggle-btn"
+              onClick={() => toggleSection("tools")}
+            >
+              {openSection === "tools" ? "Hide" : "View Tools"}
+            </button>
+          </div>
+
+          <div
+            className={`content ${openSection === "tools" ? "show" : ""
+              }`}
+          >
+            {[
+              "VS Code",
+              "Postman",
+              "ImageKit",
+              "Git",
+              "GitHub",
+              "Docker",
+            ].map((tool, index) => (
+              <span key={index} className="tag">
+                {tool}
+              </span>
+            ))}
+          </div>
+        </div>
+
+      </div>
+    </>
+  );
+};
+
+export default Skills;
