@@ -1,0 +1,29 @@
+.Main-div-skills{
+  display: flex;
+  background: #000;
+  padding: 15px;
+}
+.box {
+  height: 150px;
+  width: 50%;
+  border: 1px solid white;
+  background: #000;
+  margin: 1rem;
+  transition: 1s;
+}
+.box:hover{
+  box-shadow: 8px 9px 10px rgba(162, 0, 255, 0.731), -9px 7px 10px rgba(162, 0, 255, 0.731);
+}
+.active {
+  height: 250px;
+  width: 50%;
+  transition: 1s;
+  background: linear-gradient(black,rgba(162, 0, 255, 0.731));
+}
+
+.entities{
+  border: 2px solid rgba(162, 0, 255, 0.731);
+  margin: 15px;
+  padding: 5px;
+  display: inline-block;
+}

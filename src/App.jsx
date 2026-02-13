@@ -7,6 +7,7 @@ import Projects from "../src/Components/Projects.jsx"
 import Certificate from "../src/Components/Certificate.jsx"
 import Contact from "../src/Components/Contact.jsx"
 import Navbar from './Components/Navbar.jsx';
+import Skills from './Components/Skills.jsx';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/About" element={<About/>}/>
       <Route path="/Projects" element={<Projects/>}/>
       <Route path="/Certificate" element={<Certificate/>}/>
+      <Route path="/Skills" element={<Skills/>}/>
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="*" element={<h2>Sub-Title-Error</h2>}/>
     </Routes>
