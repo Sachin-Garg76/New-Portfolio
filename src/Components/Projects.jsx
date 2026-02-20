@@ -5,38 +5,38 @@ import "../styles/Projects.css";
 const Projects = () => {
   const Project_Card_Data = [{
       img: "src/assets/Newsportal.png",
-      Title: "Project Title",
+      Title: "News Portal",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
+      Desc: "News Portal is Platform where user can upload news if admin approved that news it will render to the homepage",
       Link :"Url"
     },{
-      img: "src/assets/Newsportal.png",
-      Title: "Project Title",
+      img: "public/Code-hub.png",
+      Title: "Code Hub",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
+      Desc: "Its a E-Learning platform where student can learn and boost their coding skills by watching videos",
       Link :"Url"
     },{
-      img: "src/assets/Newsportal.png",
-      Title: "Project Title",
+      img: "public/Food-View.png",
+      Title: "Food View",
      Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
+      Desc: "Food-View is reel based food order platform where food-partner can upload the news and user can watch like save that reel ans also can order food",
       Link :"Url"
     },{
-      img: "src/assets/Newsportal.png",
-      Title: "Project Title",
-     Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
+      img: "public/Imge-garalley.png",
+      Title: "image Garalley",
+     Tech_Stack: "Html Css Js",
+      Desc: "It is a basic garalley where user can save.",
       Link :"Url"
     },
     {
-      img: "src/assets/Newsportal.png",
+      img: "public/Perfumeora.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
       Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link: "Url"
     },
     {
-      img: "src/assets/Newsportal.png",
+      img: "public/SPC.png",
       Title: "Project Title",
      Tech_Stack: "MERN",
       Desc: "Here will be the project desc little.....Here will be the project desc little.....",
