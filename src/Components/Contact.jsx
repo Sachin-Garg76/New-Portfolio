@@ -41,44 +41,44 @@ const Contact = () => {
       <div className="Contact-Container">
         <div className="row w-100">
           <div className="col-sm-6 mt-5"><div className='Head-Contact'>
-          <h1>Contact Me</h1>
-          <h4>Tell me about next project</h4>
-          <button onClick={handleCopy} className='Gmail-btn'>
-            Copy Email
-          </button>
-        </div>
-        </div>
+            <h1>Contact Me</h1>
+            <h4>Tell me about next project</h4>
+            <button onClick={handleCopy} className='Gmail-btn'>
+              Copy Email
+            </button>
+          </div>
+          </div>
           <div className="col-sm-6">
             <div className="form">
-          <form ref={formRef} onSubmit={sendEmail}>
-              <h1 className="text-center pt-2">Lets <span className="text-color">Connect's</span></h1>
-            <input
-              type="text"
-              name="from_name"
-              placeholder="Your Name"
-              required
-              className="Input-tags"
-            />
-                
-            <input
-              type="email"
-              name="from_email"
-              placeholder="Your Email"
-              required
-              className="Input-tags "
-            />
-              <br />
-              
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              required
-              className="Input-tags text-area"
-            />
-              <br />
-            <button type="submit" className="Submit-btn">Send Mail</button>
-          </form>
-        </div>
+              <form ref={formRef} onSubmit={sendEmail}>
+                <h1 className="text-center pt-2">Lets <span className="text-color">Connect's</span></h1>
+                <input
+                  type="text"
+                  name="from_name"
+                  placeholder="Your Name"
+                  required
+                  className="Input-tags"
+                />
+
+                <input
+                  type="email"
+                  name="from_email"
+                  placeholder="Your Email"
+                  required
+                  className="Input-tags "
+                />
+                <br />
+
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                  className="Input-tags text-area"
+                />
+                <br />
+                <button type="submit" className="Submit-btn">Send Mail</button>
+              </form>
+            </div>
           </div>
         </div>
         <div className='row w-100'>
@@ -103,8 +103,8 @@ const Contact = () => {
           </div>
         </div>
 
-          <h5 className="text-center mt-5">All Right Reserved By <span className="text-color">Sachin</span></h5>
-          <h5 className="text-center mt-1">@2026</h5>
+        <h5 className="text-center mt-5">All Right Reserved By <span className="text-color">Sachin</span></h5>
+        <h5 className="text-center mt-1">@2026</h5>
       </div>
     </>
   )

@@ -19,7 +19,8 @@ const About = () => {
             passionate about experimenting with <br /> new <span className="text-color">skills and creativity.</span>Driven by <br /> learning
             and curisoity, I'm always looking <br /> to explore and learn new development <br /> and design skills.
           </p>
-         <Link className='resume-button mt-0'> Resume <FaFileDownload/></Link>
+         <Link className='resume-button mt-0'>
+                                     <Link className='link-tag' to="https://drive.google.com/file/d/1qjRVjdfSuTX_BNNSJEdr-YLnxmmuuuY2/view?usp=drivesdk">RESUME <FaFileDownload /></Link></Link>
         </div>
       </div>
     </>

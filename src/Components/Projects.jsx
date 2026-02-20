@@ -8,38 +8,38 @@ const Projects = () => {
       Title: "News Portal",
      Tech_Stack: "MERN",
       Desc: "News Portal is Platform where user can upload news if admin approved that news it will render to the homepage",
-      Link :"Url"
+      Link :"https://github.com/Sachin-Garg76/News_Portal"
     },{
       img: "public/Code-hub.png",
       Title: "Code Hub",
      Tech_Stack: "MERN",
       Desc: "Its a E-Learning platform where student can learn and boost their coding skills by watching videos",
-      Link :"Url"
+      Link :"https://github.com/Sachin-Garg76/CODEHUB"
     },{
       img: "public/Food-View.png",
       Title: "Food View",
      Tech_Stack: "MERN",
       Desc: "Food-View is reel based food order platform where food-partner can upload the news and user can watch like save that reel ans also can order food",
-      Link :"Url"
+      Link :"https://github.com/Sachin-Garg76/FoodBuzz-FOOD-VIEW"
+    },
+    {
+      img: "public/Perfumeora.png",
+      Title: "Perfumeora",
+     Tech_Stack: "MERN",
+      Desc: "Perfumeora is a perfume selling platform where user can buy perfumes.",
+      Link: "https://github.com/Sachin-Garg76/Perfumeora"
+    },
+    {
+      img: "public/SPC.png",
+      Title: "Stone Paper Scissor",
+     Tech_Stack: "MERN",
+      Desc: "Basic stone paper scissor game built with HTML, CSS, and JavaScript.",
+      Link :"https://stonepaperscissorsgame12345.netlify.app/"
     },{
       img: "public/Imge-garalley.png",
       Title: "image Garalley",
      Tech_Stack: "Html Css Js",
       Desc: "It is a basic garalley where user can save.",
-      Link :"Url"
-    },
-    {
-      img: "public/Perfumeora.png",
-      Title: "Project Title",
-     Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
-      Link: "Url"
-    },
-    {
-      img: "public/SPC.png",
-      Title: "Project Title",
-     Tech_Stack: "MERN",
-      Desc: "Here will be the project desc little.....Here will be the project desc little.....",
       Link :"Url"
     }]
   const [index, setIndex] = useState(0);
