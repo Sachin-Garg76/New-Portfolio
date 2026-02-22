@@ -20,10 +20,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_6rpeo4e",
-        "template_kxgufgi",
+        "Your_Service_key_of_Email.js",
+        "template_Your_template_key_of_Email.Js",
         formRef.current,
-        "xarYMakT7vnz20bTq"
+        "Your_ID__of_Email.js"
       )
       .then(
         (result) => {
