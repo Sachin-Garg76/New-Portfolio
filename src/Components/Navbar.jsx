@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <div className="nav-container row">
                 <div className="col-sm-3 logo">
-                    <Link  className='link-tag' >Sachin</Link>
+                   Sachin
                 </div>
                 <div className="col-sm-5 ">
                 </div>
@@ -13,7 +13,6 @@ const Navbar = () => {
                     <Link to="/" className='link-tag' >Home</Link>
                     <Link to="/About" className='link-tag' >About</Link>
                     <Link to="/Contact" className='link-tag' >Contact</Link>
-
                 </div>
             </div>
         </>
