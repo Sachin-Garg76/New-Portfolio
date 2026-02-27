@@ -12,6 +12,7 @@ const Navbar = () => {
                 <div className="col-sm-4 link-container">
                     <Link to="/" className='link-tag' >Home</Link>
                     <Link to="/About" className='link-tag' >About</Link>
+                     <Link to="/AI-Mode" className='link-tag' >Ask Me</Link>
                     <Link to="/Contact" className='link-tag' >Contact</Link>
                 </div>
             </div>
