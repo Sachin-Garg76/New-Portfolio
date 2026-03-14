@@ -4,7 +4,9 @@ const Myassistand = () => {
   return (
     <>
       <div className="row w-100 Main-Container">
-        <div className="col-sm-6"></div>
+        <div className="col-sm-6">
+          <input className="Input-box" placeholder="Ask me anything " ></input>
+        </div>
         <div className="col-sm-6"></div>
        
       </div>
