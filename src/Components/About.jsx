@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="col-sm-6 About-Inner">
           <h2 className='About-heading'>
-            <span className="text-color">Creativity</span> <br /> Is My Passion
+            <span className="text-color">Creativity and Developing </span> <br /> Is My Passion
           </h2>
           <p className="About-para">
             I'm a web <span className="text-color">developer & designer</span> <br />
@@ -20,7 +20,7 @@ const About = () => {
             and curisoity, I'm always looking <br /> to explore and learn new development <br /> and design skills.
           </p>
          <Link className='resume-button mt-0'>
-                                     <Link className='link-tag' to="https://drive.google.com/file/d/1qjRVjdfSuTX_BNNSJEdr-YLnxmmuuuY2/view?usp=drivesdk">RESUME <FaFileDownload /></Link></Link>
+          <Link className='link-tag' to="https://drive.google.com/file/d/1qjRVjdfSuTX_BNNSJEdr-YLnxmmuuuY2/view?usp=drivesdk">RESUME <FaFileDownload /></Link></Link>
         </div>
       </div>
     </>
