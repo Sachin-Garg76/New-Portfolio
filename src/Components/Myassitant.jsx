@@ -3,13 +3,7 @@ import React from 'react'
 const Myassistand = () => {
   return (
     <>
-      <div className="row w-100 Main-Container">
-        <div className="col-sm-6">
-          <input className="Input-box" placeholder="Ask me anything " ></input>
-        </div>
-        <div className="col-sm-6"></div>
-       
-      </div>
+      <div> <h5>For this time .. This service is temporary unavialabe</h5></div>
     </>
   )
 }
