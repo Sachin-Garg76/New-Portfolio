@@ -91,9 +91,8 @@ const Contact = () => {
           <div className='col-sm-4 text-center mt-5'>
             <h5><span className="text-color">Social Media</span></h5>
             <Link to="https://www.linkedin.com/in/sachin-garg-37aa74252/" className='About-Links'>LinkedIn<MdArrowOutward /></Link> <br />
-            <Link to="https://github.com/Sachin-Garg76" className='About-Links'> Github<MdArrowOutward /></Link> <br />
+            <Link to="https://github.com/Sachin-Garg76/" className='About-Links'> Github<MdArrowOutward /></Link> <br />
             <Link to="https://leetcode.com/u/Sachin_323/" className='About-Links'>Leetcode<MdArrowOutward /></Link> <br />
-            <Link to="https://www.instagram.com/sachin.1806_" className='About-Links'>Insta<MdArrowOutward /></Link> <br />
           </div>
           <div className='col-sm-4 text-center mt-5'>
             <h5><span className="text-color">Write Me & We'll Talk</span></h5>
@@ -103,7 +102,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <h5 className="text-center mt-5">All Right Reserved By <span className="text-color">Sachin</span></h5>
+        <h5 className="text-center mt-5">All Right Reserved By <span className="text-color"> Sachin </span></h5>
         <h5 className="text-center mt-1">@2026</h5>
       </div>
     </>
