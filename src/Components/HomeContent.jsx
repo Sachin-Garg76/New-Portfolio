@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
 import { FaFileDownload } from "react-icons/fa";
-
+import profile from "../assets/profile.png";
 
 import '../App.css'
 const HomeContent = () => {
@@ -48,7 +48,7 @@ const HomeContent = () => {
                 </div>
                 <div className="Inner-Home-Container col-sm-4">
                     <div className="Main-Img-Container">
-                        <img src="src/assets/Main.jpeg" alt="" className='Img-Main' />
+                        <img src={profile} className='Img-Main'/>
                     </div>
                 </div>
                 <div className="Inner-Home-Container col-sm-4">
