@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import Navbar from "./Navbar.jsx"
 import '../styles/About.css'
 import { FaFileDownload } from "react-icons/fa";
+import mainImg from "../assets/Main.jpeg";
 const About = () => {
   return (
     <>
       <div className="About-Container row">
         <div className="col-sm-6 About-Inner">
-          <img src="src/assets/Main.jpeg" alt="" className='About-Image'/>
+          <img src={mainImg} alt="Sachin Garg" className='About-Image'/>
         </div>
         <div className="col-sm-6 About-Inner">
           <h2 className='About-heading'>
