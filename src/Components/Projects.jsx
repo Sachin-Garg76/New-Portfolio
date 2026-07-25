@@ -4,7 +4,7 @@ import "../styles/Projects.css";
 
 const Projects = () => {
   const Project_Card_Data = [{
-      img: "/Newsportal.png",
+      img: "/News-Portal.png",
       Title: "News Portal",
      Tech_Stack: "MERN",
       Desc: "News Portal is Platform where user can upload news if admin approved that news it will render to the homepage",
