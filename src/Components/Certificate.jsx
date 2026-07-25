@@ -6,22 +6,22 @@ const certificates = [
   {
     id: 1,
     title: "Trainig Certificate at Coincent",
-    image: "public/Training.png",
+    image: "/Training.png",
   },
   {
     id: 2,
     title: "MERN STACK at Techpile",
-    image: "public/Techpile.png",
+    image: "/Techpile.png",
   },
   {
     id: 3,
     title: "Pyhton with Ai at coincent",
-    image: "public/Coincent.png",
+    image: "/Coincent.png",
   },
   {
     id: 4,
     title: "Pyhton with Web development at Infosys",
-    image: "public/infosys.jpg",
+    image: "/infosys.jpg",
   },
 ];
 
