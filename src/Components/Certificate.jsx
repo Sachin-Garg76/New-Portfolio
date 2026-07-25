@@ -16,7 +16,7 @@ const certificates = [
   {
     id: 3,
     title: "Pyhton with Ai at coincent",
-    image: "/Coincent.png",
+    image: "/coincent.png",
   },
   {
     id: 4,
