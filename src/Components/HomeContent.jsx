@@ -59,7 +59,7 @@ const HomeContent = () => {
                     </div>
 
                     <h4 className="resume-btn">
-                        <Link className='link-tag' to="https://drive.google.com/file/d/1qjRVjdfSuTX_BNNSJEdr-YLnxmmuuuY2/view?usp=drivesdk">RESUME <FaFileDownload /></Link>
+                        <Link className='link-tag' to="https://drive.google.com/file/d/192o4aaEjeqWKlkFors9TGTtMLfwD2vum/view?usp=drivesdk">RESUME <FaFileDownload /></Link>
                     </h4>
                 </div>
             </div>
