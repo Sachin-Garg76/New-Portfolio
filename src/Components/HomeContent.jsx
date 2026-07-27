@@ -60,9 +60,9 @@ const HomeContent = () => {
                                     RESUME <FaFileDownload />
                                 </Link>
                             </h4>
-                            <a href="#projects" className="secondary-btn">
+                            <Link  to="/Projects" className="secondary-btn">
                                 View Projects
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="Links-container">
