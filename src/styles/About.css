@@ -36,4 +36,74 @@
     position: relative;
     top: 45px;
     right: 130px;
-} 
+}
+
+/* ===== Responsive Fixes ===== */
+
+/* Tablets (≤991px) */
+@media (max-width: 991px) {
+    .About-Container{
+        height: auto;
+        width: 100%;
+        padding: 3rem 1rem;
+        flex-wrap: wrap;
+    }
+    .About-Inner{
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .About-Image{
+        height: auto;
+        max-height: 55vh;
+        width: 70%;
+        margin-left: 15%;
+        object-fit: cover;
+    }
+    .About-heading{
+        margin-top: 2rem;
+        font-size: 2.6rem;
+        line-height: 3.2rem;
+        text-align: center;
+    }
+    .About-para{
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    .About-para br{
+        display: none;
+    }
+    .resume-button{
+        top: 0;
+        right: 0;
+        display: inline-block;
+        margin-top: 1.5rem;
+    }
+}
+
+/* Mobile (≤576px) */
+@media (max-width: 576px) {
+    .About-Container{
+        padding: 2rem 0.8rem;
+    }
+    .About-Image{
+        width: 85%;
+        margin-left: 7.5%;
+        max-height: 40vh;
+    }
+    .About-heading{
+        font-size: 1.9rem;
+        line-height: 2.4rem;
+    }
+    .About-para{
+        font-size: 1.05rem;
+        line-height: 1.7rem;
+        font-weight: 300;
+    }
+    .resume-button{
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
