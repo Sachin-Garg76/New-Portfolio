@@ -1,6 +1,6 @@
 .About-Container{
     height: 92vh;
-    width: 102%;
+    width: 100.7%;
     background: #000;
 }
 .About-Inner{
@@ -38,13 +38,10 @@
     right: 130px;
 }
 
-/* ===== Responsive Fixes ===== */
-
-/* Tablets (≤991px) */
 @media (max-width: 991px) {
     .About-Container{
         height: auto;
-        width: 100%;
+        width: 102%;
         padding: 3rem 1rem;
         flex-wrap: wrap;
     }
@@ -83,7 +80,6 @@
     }
 }
 
-/* Mobile (≤576px) */
 @media (max-width: 576px) {
     .About-Container{
         padding: 2rem 0.8rem;
